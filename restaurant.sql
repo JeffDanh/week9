@@ -51,7 +51,7 @@
 SELECT * FROM restaurant ORDER BY distance;
 SELECT * FROM restaurant ORDER BY distance LIMIT 2;
 SELECT * FROM restaurant ORDER BY stars LIMIT 2;
-SELECT * FROM restaurant WHERE distance < 2 ORDER BY stars LIMIT 2 ;
+SELECT * FROM restaurant WHERE distance < 2 ORDER BY stars LIMIT 2;
 SELECT COUNT(*) FROM restaurant;
 SELECT COUNT(category) FROM restaurant;
 SELECT AVG(stars) AS average_stars FROM restaurant GROUP BY category;
